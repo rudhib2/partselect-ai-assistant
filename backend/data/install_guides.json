@@ -1,0 +1,120 @@
+{
+    "PS11752778": {
+      "tools_needed": ["Phillips screwdriver"],
+      "steps": [
+        "Disconnect the dishwasher from power.",
+        "Pull out the lower dish rack.",
+        "Locate the damaged rack wheel.",
+        "Snap off the old wheel from the rack.",
+        "Snap the new rack wheel into place.",
+        "Reinstall the rack and restore power."
+      ]
+    },
+  
+    "PS12345601": {
+      "tools_needed": ["Screwdriver", "Pliers"],
+      "steps": [
+        "Disconnect power to the dishwasher.",
+        "Turn off the water supply.",
+        "Remove the lower access panel.",
+        "Locate the drain pump assembly.",
+        "Disconnect the hoses and electrical connector.",
+        "Remove the pump and install the new drain pump.",
+        "Reconnect hoses and restore power."
+      ]
+    },
+  
+    "PS12345602": {
+      "tools_needed": ["None or small screwdriver"],
+      "steps": [
+        "Open the dishwasher and remove the lower rack.",
+        "Locate the spray arm at the bottom.",
+        "Twist or unscrew the spray arm to remove it.",
+        "Install the new spray arm.",
+        "Reinsert the rack and test operation."
+      ]
+    },
+  
+    "PS12345603": {
+      "tools_needed": ["Screwdriver"],
+      "steps": [
+        "Disconnect power to the dishwasher.",
+        "Open the dishwasher door.",
+        "Remove screws securing the inner door panel.",
+        "Locate the door latch assembly.",
+        "Disconnect wiring and remove the latch.",
+        "Install the new latch and reassemble the door."
+      ]
+    },
+  
+    "PS12345604": {
+      "tools_needed": ["Screwdriver", "Pliers"],
+      "steps": [
+        "Disconnect power to the dishwasher.",
+        "Remove the lower dish rack.",
+        "Unscrew and disconnect the heating element terminals.",
+        "Remove the heating element from the tub.",
+        "Install the new heating element and reconnect wires.",
+        "Reassemble and test the dishwasher."
+      ]
+    },
+  
+    "PS12345605": {
+      "tools_needed": ["Screwdriver"],
+      "steps": [
+        "Disconnect power to the dishwasher.",
+        "Remove the lower rack.",
+        "Locate the float switch under the float assembly.",
+        "Disconnect the wiring harness.",
+        "Remove the switch and install the new one.",
+        "Reconnect wiring and restore power."
+      ]
+    },
+  
+    "PS200001": {
+      "tools_needed": ["Nut driver", "Screwdriver"],
+      "steps": [
+        "Disconnect power to the refrigerator.",
+        "Remove the ice bin from the freezer.",
+        "Unscrew the mounting screws securing the ice maker.",
+        "Disconnect the wiring harness.",
+        "Install the new ice maker assembly.",
+        "Reconnect wiring and reinstall mounting screws."
+      ]
+    },
+  
+    "PS200002": {
+      "tools_needed": ["Wrench", "Screwdriver"],
+      "steps": [
+        "Disconnect power to the refrigerator.",
+        "Turn off the household water supply.",
+        "Pull the refrigerator away from the wall.",
+        "Locate the water inlet valve at the back.",
+        "Disconnect water lines and electrical connectors.",
+        "Install the new valve and reconnect lines."
+      ]
+    },
+  
+    "PS200003": {
+      "tools_needed": ["Screwdriver"],
+      "steps": [
+        "Disconnect power to the refrigerator.",
+        "Remove the rear freezer panel.",
+        "Locate the evaporator fan motor.",
+        "Disconnect wiring harness.",
+        "Remove mounting screws and replace the fan motor.",
+        "Reinstall panel and restore power."
+      ]
+    },
+  
+    "PS200005": {
+      "tools_needed": ["None"],
+      "steps": [
+        "Open the refrigerator door.",
+        "Pull the old door gasket away from the door liner.",
+        "Align the new gasket along the door edges.",
+        "Press the gasket into the groove around the door.",
+        "Ensure the gasket seals evenly."
+      ]
+    }
+  }

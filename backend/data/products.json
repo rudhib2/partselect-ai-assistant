@@ -1,0 +1,282 @@
+[
+    {
+      "part_number": "PS11752778",
+      "name": "Dishwasher Rack Wheel",
+      "appliance": "dishwasher",
+      "brand": "Whirlpool",
+      "price": 14.99,
+      "description": "Replacement wheel for the lower dishwasher rack.",
+      "rating": 4.7,
+      "review_count": 324,
+      "review_snippets": [
+        "Perfect replacement and very easy to install.",
+        "Fixed my lower rack issue in minutes."
+      ]
+    },
+    {
+      "part_number": "PS12345601",
+      "name": "Dishwasher Drain Pump",
+      "appliance": "dishwasher",
+      "brand": "Whirlpool",
+      "price": 49.99,
+      "description": "Pumps water out of the dishwasher during the drain cycle.",
+      "rating": 4.5,
+      "review_count": 182,
+      "review_snippets": [
+        "Solved my draining problem right away.",
+        "Good fit and straightforward install."
+      ]
+    },
+    {
+      "part_number": "PS12345602",
+      "name": "Dishwasher Spray Arm",
+      "appliance": "dishwasher",
+      "brand": "Whirlpool",
+      "price": 27.5,
+      "description": "Rotating spray arm that distributes water during the wash cycle.",
+      "rating": 4.4,
+      "review_count": 141,
+      "review_snippets": [
+        "Water coverage improved a lot after replacing this.",
+        "Fit perfectly and restored cleaning performance."
+      ]
+    },
+    {
+      "part_number": "PS12345603",
+      "name": "Dishwasher Door Latch",
+      "appliance": "dishwasher",
+      "brand": "Whirlpool",
+      "price": 34.99,
+      "description": "Secures the dishwasher door and ensures proper sealing.",
+      "rating": 4.6,
+      "review_count": 96,
+      "review_snippets": [
+        "Fixed the latch issue immediately.",
+        "Door closes securely again."
+      ]
+    },
+    {
+      "part_number": "PS12345604",
+      "name": "Dishwasher Heating Element",
+      "appliance": "dishwasher",
+      "brand": "Whirlpool",
+      "price": 44.99,
+      "description": "Heats water during wash cycles and assists with drying.",
+      "rating": 4.5,
+      "review_count": 117,
+      "review_snippets": [
+        "Dishes are finally drying properly again.",
+        "Great OEM replacement part."
+      ]
+    },
+    {
+      "part_number": "PS12345605",
+      "name": "Dishwasher Float Switch",
+      "appliance": "dishwasher",
+      "brand": "Whirlpool",
+      "price": 22.0,
+      "description": "Detects water level inside the dishwasher.",
+      "rating": 4.3,
+      "review_count": 63,
+      "review_snippets": [
+        "Helped fix overfilling issue.",
+        "Small part but made a big difference."
+      ]
+    },
+    {
+      "part_number": "PS12345606",
+      "name": "Dishwasher Water Inlet Valve",
+      "appliance": "dishwasher",
+      "brand": "Whirlpool",
+      "price": 29.99,
+      "description": "Controls water flow into the dishwasher.",
+      "rating": 4.4,
+      "review_count": 88,
+      "review_snippets": [
+        "Restored normal water fill.",
+        "Worked exactly as expected."
+      ]
+    },
+    {
+      "part_number": "PS12345607",
+      "name": "Dishwasher Control Board",
+      "appliance": "dishwasher",
+      "brand": "Whirlpool",
+      "price": 89.99,
+      "description": "Electronic control board that manages dishwasher cycles.",
+      "rating": 4.2,
+      "review_count": 54,
+      "review_snippets": [
+        "Resolved unresponsive buttons.",
+        "A bit pricier but solved the issue."
+      ]
+    },
+    {
+      "part_number": "PS12345608",
+      "name": "Dishwasher Filter Assembly",
+      "appliance": "dishwasher",
+      "brand": "Whirlpool",
+      "price": 19.99,
+      "description": "Filters food particles from the wash water.",
+      "rating": 4.6,
+      "review_count": 203,
+      "review_snippets": [
+        "Helped with draining and cleaning performance.",
+        "Easy to swap out and clean."
+      ]
+    },
+    {
+      "part_number": "PS12345609",
+      "name": "Dishwasher Door Seal",
+      "appliance": "dishwasher",
+      "brand": "Whirlpool",
+      "price": 17.99,
+      "description": "Rubber gasket that prevents water leaks around the door.",
+      "rating": 4.7,
+      "review_count": 169,
+      "review_snippets": [
+        "Stopped the leak completely.",
+        "Good seal and easy to fit."
+      ]
+    },
+    {
+      "part_number": "PS200001",
+      "name": "Refrigerator Ice Maker Assembly",
+      "appliance": "refrigerator",
+      "brand": "Whirlpool",
+      "price": 89.5,
+      "description": "Produces ice automatically in the freezer compartment.",
+      "rating": 4.6,
+      "review_count": 412,
+      "review_snippets": [
+        "Ice production came back immediately.",
+        "Excellent fit and clear installation process."
+      ]
+    },
+    {
+      "part_number": "PS200002",
+      "name": "Refrigerator Water Inlet Valve",
+      "appliance": "refrigerator",
+      "brand": "Whirlpool",
+      "price": 32.5,
+      "description": "Controls water supply to ice maker and dispenser.",
+      "rating": 4.5,
+      "review_count": 238,
+      "review_snippets": [
+        "Fixed both dispenser and ice maker issues.",
+        "Good value and easy replacement."
+      ]
+    },
+    {
+      "part_number": "PS200003",
+      "name": "Refrigerator Evaporator Fan Motor",
+      "appliance": "refrigerator",
+      "brand": "Whirlpool",
+      "price": 64.99,
+      "description": "Circulates cold air throughout the refrigerator.",
+      "rating": 4.4,
+      "review_count": 147,
+      "review_snippets": [
+        "Solved my cooling problem.",
+        "Quiet and fit perfectly."
+      ]
+    },
+    {
+      "part_number": "PS200004",
+      "name": "Refrigerator Defrost Thermostat",
+      "appliance": "refrigerator",
+      "brand": "Whirlpool",
+      "price": 21.99,
+      "description": "Prevents overheating during defrost cycle.",
+      "rating": 4.3,
+      "review_count": 94,
+      "review_snippets": [
+        "Helped with frost buildup issue.",
+        "Worked as expected."
+      ]
+    },
+    {
+      "part_number": "PS200005",
+      "name": "Refrigerator Door Gasket",
+      "appliance": "refrigerator",
+      "brand": "Whirlpool",
+      "price": 49.0,
+      "description": "Seals the refrigerator door to keep cold air inside.",
+      "rating": 4.7,
+      "review_count": 286,
+      "review_snippets": [
+        "Seal was perfect and reduced temperature swings.",
+        "Easy to install and high quality."
+      ]
+    },
+    {
+      "part_number": "PS200006",
+      "name": "Refrigerator Condenser Fan Motor",
+      "appliance": "refrigerator",
+      "brand": "Whirlpool",
+      "price": 58.99,
+      "description": "Cools the condenser coils by circulating air.",
+      "rating": 4.4,
+      "review_count": 112,
+      "review_snippets": [
+        "Fridge cooling improved quickly.",
+        "Solid replacement motor."
+      ]
+    },
+    {
+      "part_number": "PS200007",
+      "name": "Refrigerator Temperature Control Thermostat",
+      "appliance": "refrigerator",
+      "brand": "Whirlpool",
+      "price": 42.75,
+      "description": "Controls refrigerator cooling cycles.",
+      "rating": 4.3,
+      "review_count": 101,
+      "review_snippets": [
+        "Helped stabilize temperature again.",
+        "Straightforward replacement."
+      ]
+    },
+    {
+      "part_number": "PS200008",
+      "name": "Refrigerator Air Damper Control",
+      "appliance": "refrigerator",
+      "brand": "Whirlpool",
+      "price": 55.0,
+      "description": "Regulates airflow between freezer and refrigerator compartments.",
+      "rating": 4.2,
+      "review_count": 73,
+      "review_snippets": [
+        "Solved warm fridge / cold freezer issue.",
+        "Fit well and works properly."
+      ]
+    },
+    {
+      "part_number": "PS200009",
+      "name": "Refrigerator Defrost Heater",
+      "appliance": "refrigerator",
+      "brand": "Whirlpool",
+      "price": 37.99,
+      "description": "Melts frost buildup on evaporator coils.",
+      "rating": 4.5,
+      "review_count": 132,
+      "review_snippets": [
+        "Stopped the frost buildup problem.",
+        "Good part and easy install."
+      ]
+    },
+    {
+      "part_number": "PS200010",
+      "name": "Refrigerator Door Switch",
+      "appliance": "refrigerator",
+      "brand": "Whirlpool",
+      "price": 12.99,
+      "description": "Turns interior light on/off when door opens or closes.",
+      "rating": 4.6,
+      "review_count": 158,
+      "review_snippets": [
+        "Fixed the light issue instantly.",
+        "Cheap and easy fix."
+      ]
+    }
+  ]

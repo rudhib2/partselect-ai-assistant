@@ -1,0 +1,207 @@
+[
+  {
+    "timestamp": "2026-03-10 20:39:10",
+    "message": "Show me an ice maker",
+    "intent": "search",
+    "appliance_type": null,
+    "model_number": null,
+    "matched_symptom": null,
+    "returned_part_numbers": [
+      "PS200001",
+      "PS200002"
+    ],
+    "success": true,
+    "response_time_ms": 2266.63,
+    "used_memory": false
+  },
+  {
+    "timestamp": "2026-03-10 20:39:19",
+    "message": "Find a dishwasher rack wheel",
+    "intent": "search",
+    "appliance_type": "dishwasher",
+    "model_number": null,
+    "matched_symptom": null,
+    "returned_part_numbers": [
+      "PS11752778"
+    ],
+    "success": true,
+    "response_time_ms": 2073.02,
+    "used_memory": false
+  },
+  {
+    "timestamp": "2026-03-10 20:39:25",
+    "message": "Is this part compatible with WDT780SAEM1?",
+    "intent": "compatibility",
+    "appliance_type": null,
+    "model_number": "WDT780SAEM1",
+    "matched_symptom": null,
+    "returned_part_numbers": [
+      "PS11752778"
+    ],
+    "success": true,
+    "response_time_ms": 1540.66,
+    "used_memory": true
+  },
+  {
+    "timestamp": "2026-03-10 20:39:33",
+    "message": "My refrigerator is not cooling",
+    "intent": "troubleshoot",
+    "appliance_type": "refrigerator",
+    "model_number": null,
+    "matched_symptom": "refrigerator not cooling",
+    "returned_part_numbers": [
+      "PS200003",
+      "PS200006",
+      "PS200007"
+    ],
+    "success": true,
+    "response_time_ms": 1661.51,
+    "used_memory": false
+  },
+  {
+    "timestamp": "2026-03-10 20:39:41",
+    "message": "How do I install PS11752778?",
+    "intent": "install",
+    "appliance_type": null,
+    "model_number": null,
+    "matched_symptom": null,
+    "returned_part_numbers": [
+      "PS11752778"
+    ],
+    "success": true,
+    "response_time_ms": 2150.39,
+    "used_memory": false
+  },
+  {
+    "timestamp": "2026-03-10 20:39:47",
+    "message": "Tell me a joke",
+    "intent": "out_of_scope",
+    "appliance_type": null,
+    "model_number": null,
+    "matched_symptom": null,
+    "returned_part_numbers": [],
+    "success": false,
+    "response_time_ms": 1697.46,
+    "used_memory": false
+  },
+  {
+    "timestamp": "2026-03-10 20:47:25",
+    "message": "Show me a refrigerator compressor",
+    "intent": "search",
+    "appliance_type": "refrigerator",
+    "model_number": null,
+    "matched_symptom": null,
+    "returned_part_numbers": [
+      "PS200001",
+      "PS200002",
+      "PS200003"
+    ],
+    "success": true,
+    "response_time_ms": 1605.57,
+    "used_memory": false,
+    "unavailable_request": false,
+    "unavailable_query": null
+  },
+  {
+    "timestamp": "2026-03-10 20:47:45",
+    "message": "Do you have dishwasher silverware basket clips?",
+    "intent": "search",
+    "appliance_type": "dishwasher",
+    "model_number": null,
+    "matched_symptom": null,
+    "returned_part_numbers": [],
+    "success": false,
+    "response_time_ms": 1543.49,
+    "used_memory": false,
+    "unavailable_request": true,
+    "unavailable_query": "Do you have dishwasher silverware basket clips?"
+  },
+  {
+    "timestamp": "2026-03-10 20:50:15",
+    "message": "Show me a refrigerator compressor",
+    "intent": "search",
+    "appliance_type": "refrigerator",
+    "model_number": null,
+    "matched_symptom": null,
+    "returned_part_numbers": [],
+    "success": false,
+    "response_time_ms": 1863.67,
+    "used_memory": false,
+    "unavailable_request": true,
+    "unavailable_query": "Show me a refrigerator compressor"
+  },
+  {
+    "timestamp": "2026-03-10 20:50:25",
+    "message": "Do you have dishwasher silverware basket clips?",
+    "intent": "search",
+    "appliance_type": "dishwasher",
+    "model_number": null,
+    "matched_symptom": null,
+    "returned_part_numbers": [],
+    "success": false,
+    "response_time_ms": 1668.99,
+    "used_memory": false,
+    "unavailable_request": true,
+    "unavailable_query": "Do you have dishwasher silverware basket clips?"
+  },
+  {
+    "timestamp": "2026-03-10 20:58:28",
+    "message": "Show me a refrigerator compressor",
+    "intent": "search",
+    "appliance_type": "refrigerator",
+    "model_number": null,
+    "matched_symptom": null,
+    "returned_part_numbers": [],
+    "success": false,
+    "response_time_ms": 1938.27,
+    "used_memory": false,
+    "unavailable_request": true,
+    "unavailable_query": "Show me a refrigerator compressor"
+  },
+  {
+    "timestamp": "2026-03-10 21:30:48",
+    "message": "do you have dishwasher clips?",
+    "intent": "search",
+    "appliance_type": "dishwasher",
+    "model_number": null,
+    "matched_symptom": null,
+    "returned_part_numbers": [],
+    "success": false,
+    "response_time_ms": 2142.81,
+    "used_memory": false,
+    "unavailable_request": true,
+    "unavailable_query": "do you have dishwasher clips?"
+  },
+  {
+    "timestamp": "2026-03-10 21:30:56",
+    "message": "Show me a dishwasher drain pump",
+    "intent": "search",
+    "appliance_type": "dishwasher",
+    "model_number": null,
+    "matched_symptom": null,
+    "returned_part_numbers": [
+      "PS12345601"
+    ],
+    "success": true,
+    "response_time_ms": 1829.94,
+    "used_memory": false,
+    "unavailable_request": false,
+    "unavailable_query": null
+  },
+  {
+    "timestamp": "2026-03-10 21:37:50",
+    "message": "Find a dishwasher rack wheel",
+    "intent": "search",
+    "appliance_type": "dishwasher",
+    "model_number": null,
+    "matched_symptom": null,
+    "returned_part_numbers": [
+      "PS11752778"
+    ],
+    "success": true,
+    "response_time_ms": 2009.01,
+    "used_memory": false,
+    "unavailable_request": false,
+    "unavailable_query": null
+  }
+]

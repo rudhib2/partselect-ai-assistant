@@ -1,0 +1,152 @@
+[
+    {
+      "appliance": "dishwasher",
+      "symptom": "dishwasher not draining",
+      "possible_causes": [
+        "Clogged or faulty drain pump",
+        "Blocked filter assembly",
+        "Drain hose obstruction"
+      ],
+      "recommended_parts": ["PS12345601", "PS12345608"]
+    },
+    {
+      "appliance": "dishwasher",
+      "symptom": "dishwasher leaking",
+      "possible_causes": [
+        "Worn door seal",
+        "Overfilling caused by faulty float switch",
+        "Cracked water inlet valve"
+      ],
+      "recommended_parts": ["PS12345609", "PS12345605", "PS12345606"]
+    },
+    {
+      "appliance": "dishwasher",
+      "symptom": "dishwasher not cleaning dishes",
+      "possible_causes": [
+        "Clogged spray arm",
+        "Low water flow from inlet valve",
+        "Dirty filter assembly"
+      ],
+      "recommended_parts": ["PS12345602", "PS12345606", "PS12345608"]
+    },
+    {
+      "appliance": "dishwasher",
+      "symptom": "dishwasher not heating",
+      "possible_causes": [
+        "Failed heating element",
+        "Faulty control board"
+      ],
+      "recommended_parts": ["PS12345604", "PS12345607"]
+    },
+    {
+      "appliance": "dishwasher",
+      "symptom": "dishwasher door will not latch",
+      "possible_causes": [
+        "Broken door latch",
+        "Damaged door seal interfering with closure"
+      ],
+      "recommended_parts": ["PS12345603", "PS12345609"]
+    },
+    {
+      "appliance": "dishwasher",
+      "symptom": "dishwasher not filling with water",
+      "possible_causes": [
+        "Faulty water inlet valve",
+        "Defective float switch"
+      ],
+      "recommended_parts": ["PS12345606", "PS12345605"]
+    },
+    {
+      "appliance": "dishwasher",
+      "symptom": "dishwasher rack wheel broken",
+      "possible_causes": [
+        "Normal wear and tear on lower rack wheel"
+      ],
+      "recommended_parts": ["PS11752778"]
+    },
+    {
+      "appliance": "dishwasher",
+      "symptom": "dishwasher buttons not responding",
+      "possible_causes": [
+        "Faulty electronic control board",
+        "Door latch not engaging properly"
+      ],
+      "recommended_parts": ["PS12345607", "PS12345603"]
+    },
+  
+    {
+      "appliance": "refrigerator",
+      "symptom": "ice maker not working",
+      "possible_causes": [
+        "Faulty ice maker assembly",
+        "Water inlet valve failure",
+        "Freezer temperature issue"
+      ],
+      "recommended_parts": ["PS200001", "PS200002"]
+    },
+    {
+      "appliance": "refrigerator",
+      "symptom": "refrigerator not cooling",
+      "possible_causes": [
+        "Evaporator fan motor failure",
+        "Condenser fan motor failure",
+        "Temperature control thermostat issue"
+      ],
+      "recommended_parts": ["PS200003", "PS200006", "PS200007"]
+    },
+    {
+      "appliance": "refrigerator",
+      "symptom": "freezer too cold refrigerator warm",
+      "possible_causes": [
+        "Faulty air damper control",
+        "Evaporator fan motor issue"
+      ],
+      "recommended_parts": ["PS200008", "PS200003"]
+    },
+    {
+      "appliance": "refrigerator",
+      "symptom": "water dispenser not working",
+      "possible_causes": [
+        "Faulty water inlet valve",
+        "Frozen water line"
+      ],
+      "recommended_parts": ["PS200002"]
+    },
+    {
+      "appliance": "refrigerator",
+      "symptom": "frost buildup in freezer",
+      "possible_causes": [
+        "Defrost thermostat failure",
+        "Defrost heater failure",
+        "Damaged door gasket"
+      ],
+      "recommended_parts": ["PS200004", "PS200009", "PS200005"]
+    },
+    {
+      "appliance": "refrigerator",
+      "symptom": "refrigerator runs constantly",
+      "possible_causes": [
+        "Worn door gasket causing air leaks",
+        "Thermostat issue",
+        "Dirty condenser area"
+      ],
+      "recommended_parts": ["PS200005", "PS200007"]
+    },
+    {
+      "appliance": "refrigerator",
+      "symptom": "refrigerator light not working",
+      "possible_causes": [
+        "Faulty door switch"
+      ],
+      "recommended_parts": ["PS200010"]
+    },
+    {
+      "appliance": "refrigerator",
+      "symptom": "ice maker leaking",
+      "possible_causes": [
+        "Faulty water inlet valve",
+        "Cracked ice maker assembly"
+      ],
+      "recommended_parts": ["PS200002", "PS200001"]
+    }
+  ]

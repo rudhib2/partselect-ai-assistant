@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+```md
+# PartSelect Parts Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project implements a chat-based assistant for the PartSelect e-commerce platform focused on **refrigerator and dishwasher parts**.
 
-## Available Scripts
+The assistant helps customers:
+- find replacement parts
+- check compatibility between parts and appliance models
+- troubleshoot appliance issues
+- view installation guidance
 
-In the project directory, you can run:
+The system is designed as a **tool-driven assistant architecture** where user queries are classified and routed to specialized backend tools.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Use Cases
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The assistant supports queries such as:
 
-### `npm test`
+• How can I install part number PS11752778?  
+• Is this part compatible with my WDT780SAEM1 model?  
+• The ice maker on my Whirlpool fridge is not working  
+• Find a dishwasher rack wheel
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The interface presents results as **product cards with pricing, ratings, and quick actions** for compatibility checks and installation guidance.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Architecture
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Backend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The backend is implemented using **FastAPI** and follows a tool-based routing architecture.
 
-### `npm run eject`
+User queries are first classified into intents using an LLM:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- search
+- compatibility
+- troubleshoot
+- install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Each intent is routed to a deterministic tool:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `search_parts` — product search
+- `check_compatibility` — model compatibility verification
+- `get_troubleshooting_guide` — appliance issue diagnosis
+- `get_install_guide` — installation instructions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+All interactions are logged and aggregated to generate **business insights** such as search demand, common appliance failures, and unavailable product requests.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Frontend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The frontend is a **React chat interface** designed to simulate a customer support experience.
 
-### Code Splitting
+Key features:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- conversational chat interface
+- product cards with reviews and pricing
+- suggested follow-up prompts
+- quick actions for compatibility and installation
+- analytics dashboard showing assistant usage insights
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Design Choices
 
-### Making a Progressive Web App
+**Scoped assistant**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The agent only responds to refrigerator and dishwasher parts queries to ensure reliability and avoid hallucinations.
 
-### Advanced Configuration
+**Tool-based architecture**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Instead of generating answers directly, the assistant routes queries to deterministic tools, improving accuracy and extensibility.
 
-### Deployment
+**Insight logging**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Every interaction is logged and aggregated into a dashboard that surfaces business insights such as popular parts, common symptoms, and missing catalog items.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Running the Project
+
+Backend
+
+
+cd backend
+uvicorn main:app --reload
+
+
+Frontend
+
+npm install
+npm start
